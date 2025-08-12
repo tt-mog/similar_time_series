@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Aug 12 11:21:07 2025
+
+@author: EDSON.DOSSANTOS
+"""
 from __future__ import annotations
 
 import math
