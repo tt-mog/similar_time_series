@@ -28,6 +28,7 @@ df.set_index('valid_time', inplace=True)
 df = df[df.index >= '1995-01-01']
 df = df[['vento_u10', 'vento_v10']]
 df.columns = ['u', 'v']
+
 #Velocidade do Vento
 
 df['vvel'] = np.sqrt(df['u']**2 + df['v']**2)
